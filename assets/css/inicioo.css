@@ -1,0 +1,63 @@
+.Inicioo{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 0.023), rgb(0, 0, 0));
+    mask-size: 100% 100%;
+    filter: grayscale(20%); /* Ajuste o valor conforme necessário */
+}
+
+.Inicioo2{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.74));
+    mask-size: 100% 100%;
+    position: absolute;
+    left: 40%; /* Ajuste esse valor para posicionar a imagem mais ou menos à direita */
+    filter: grayscale(30%); /* Ajuste o valor conforme necessário */
+}
+
+.Inicioo3{
+    position: absolute;
+    top: 25%;
+    left: 1%;
+    opacity: 80%;
+}
+
+.Inicioo4{
+    opacity: 80%;
+}
+
+
+.obrigadoh1{
+    font-size: 70px;
+    color: #370091;
+    margin-bottom: 30px;
+}
+
+.obrigadop{
+    color: #000000;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.btn1{
+    padding: 15px 55px;
+    background: #370091;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: all 0.8s;
+}
+
+.btn1:hover{
+    border-radius: 16px;
+    background-color: #00d9ff;
+    color: #000;
+}
+
+.porteu{
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.296), rgb(0, 0, 0));
+    mask-size: 100% 100%;
+}
