@@ -29,33 +29,43 @@
     opacity: 80%;
 }
 
-
-.obrigadoh1{
-    font-size: 70px;
-    color: #370091;
-    margin-bottom: 30px;
+/* Estilo do Modal */
+.modal9 {
+    display: none; /* Escondido por padrão */
+    position: fixed; /* Fica fixo na tela */
+    z-index: 1; /* Fica em cima de outros elementos */
+    width: 0 auto; /* Largura total */
+    height: 100%; /* Altura total */
 }
 
-.obrigadop{
+.modalp{
+    font-size: 24px;
+    color: black;
+}
+
+.modal-content9 {
+    background: linear-gradient(to right, rgb(89, 0, 255), rgb(255, 0, 221));
+    background-color: #fefefe;
+    margin: 15% auto; /* Margem centralizada */
+    padding: 20px;
+    border: 1px solid #ffffff;
+    width: 80%; /* Largura do modal */
+}
+
+.close9 {
     color: #000000;
-    margin-bottom: 50px;
-    font-size: 30px;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
 }
 
-.btn1{
-    padding: 15px 55px;
-    background: #370091;
+.close9:hover,
+.close9:focus {
+    color: rgb(255, 0, 0);
     text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    transition: all 0.8s;
+    cursor: pointer;
 }
 
-.btn1:hover{
-    border-radius: 16px;
-    background-color: #00d9ff;
-    color: #000;
-}
 
 .porteu{
     mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.296), rgb(0, 0, 0));
